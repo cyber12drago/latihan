@@ -5,7 +5,7 @@ import styles from '@/styles/Home.module.css'
 import Script from 'next/script'
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function HaiPage() {
   return (
     <>
       <Head>
@@ -64,7 +64,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a
-            href="/hai"
+            href="/"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
