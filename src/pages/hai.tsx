@@ -74,7 +74,7 @@ export default function HaiPage() {
               Docs <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Find in-depth information about Next.js features and&nbsp;API.
+              Find in-depth informsaddation about Next.js features and&nbsp;API.
             </p>
           </Link>
 
@@ -88,7 +88,7 @@ export default function HaiPage() {
               Learn <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
+              Learn about Next.js in an interactivasasdasde course with&nbsp;quizzes!
             </p>
           </a>
 
