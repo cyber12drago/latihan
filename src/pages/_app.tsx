@@ -8,6 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <Component {...pageProps} />
     <Script async src="https://www.googletagmanager.com/gtag/js?id=G-3XC7PBC5Q6" />
     <Script src="/gats.js" />
+    <Script src="/tag.js" />
     </>
     )
 }
