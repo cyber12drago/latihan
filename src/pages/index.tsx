@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-3XC7PBC5Q6"></script>
-      <Script src="/gats.js"/>
+      <Script src="../../public/gats.js" />
 
       <main className={styles.main}>
         <div className={styles.description}>
