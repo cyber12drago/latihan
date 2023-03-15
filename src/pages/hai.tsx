@@ -66,7 +66,6 @@ export default function HaiPage() {
           <a
             href="/"
             className={styles.card}
-            target="_blank"
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>

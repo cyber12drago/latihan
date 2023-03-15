@@ -66,7 +66,6 @@ export default function Home() {
           <a
             href="/hai"
             className={styles.card}
-            target="_blank"
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
