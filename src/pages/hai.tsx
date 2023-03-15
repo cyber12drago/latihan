@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Script from 'next/script'
+import Link from 'next/link'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function HaiPage() {
@@ -63,9 +64,10 @@ export default function HaiPage() {
         </div>
 
         <div className={styles.grid}>
-          <a
+          <Link
             href="/"
             className={styles.card}
+     
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
@@ -74,7 +76,7 @@ export default function HaiPage() {
             <p className={inter.className}>
               Find in-depth information about Next.js features and&nbsp;API.
             </p>
-          </a>
+          </Link>
 
           <a
             href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
