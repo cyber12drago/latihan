@@ -15,8 +15,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-3XC7PBC5Q6"></script>
-      <Script src="/gats.js"/> */}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-3XC7PBC5Q6"></script>
+      <Script src="/gats.js"/>
 
       <main className={styles.main}>
         <div className={styles.description}>
